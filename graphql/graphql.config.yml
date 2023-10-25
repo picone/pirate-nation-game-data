@@ -1,0 +1,7 @@
+schema: schema.graphql
+documents: '*.graphql'
+extensions:
+  endpoints:
+    online:
+      url: https://subgraph.satsuma-prod.com/208eb2825ebd/proofofplay/pn-nova/api
+      introspect: true

@@ -1,0 +1,45 @@
+query GetQuests {
+    quests(orderBy: sortIndex, orderDirection: asc) {
+        id
+        enabled
+        successXp
+        cooldownSeconds
+        sortIndex
+        totalCompleted
+        totalFailed
+        totalStarted
+        totalSucceeded
+        inputs {
+            traitChecks {
+                traitMetadata {
+                    name
+                }
+                traitId
+                checkType
+                traitValue
+            }
+            tokenPointer {
+                tokenContract {
+                    id
+                }
+                tokenId
+                tokenType
+                amount
+            }
+            energyRequired
+            xpEarnedPercent
+            successBurnProbability
+            failureBurnProbability
+            consumable
+            required
+        }
+        loots {
+            tokenContract {
+                id
+            }
+            lootId
+            lootType
+            amount
+        }
+    }
+}

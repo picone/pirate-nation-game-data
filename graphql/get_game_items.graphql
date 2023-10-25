@@ -1,0 +1,24 @@
+query GetGameItems {
+    gameItems(
+        orderBy: tokenId
+        orderDirection: asc
+    ) {
+        id
+        name
+        description
+        numOwners
+        tokenId
+        contractAddress
+        currentSupply
+        traits {
+            id
+            metadata {
+                id
+                name
+                behavior
+                hidden
+            }
+            value
+        }
+    }
+}
