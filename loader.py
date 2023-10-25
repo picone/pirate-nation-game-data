@@ -16,12 +16,17 @@ class Loader:
         res = self._gql_request('get_game_items')
         return res['gameItems']
 
+    @staticmethod
+    def get_game_item_assets() -> dict:
+        with open(os.path.join(ASSETS_PATH, 'game_items.json'), 'r') as fp:
+            return json.load(fp)
+
     def get_quests(self) -> list:
         res = self._gql_request('get_quests')
         return res['quests']
 
     @staticmethod
-    def get_quests_assets() -> dict:
+    def get_quest_assets() -> dict:
         with open(os.path.join(ASSETS_PATH, 'quests.json'), 'r') as fp:
             return json.load(fp)
 

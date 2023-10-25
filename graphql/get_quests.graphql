@@ -1,14 +1,10 @@
 query GetQuests {
-    quests(orderBy: sortIndex, orderDirection: asc) {
+    quests(orderBy: sortIndex, orderDirection: asc, where: { enabled: true }) {
         id
         enabled
         successXp
         cooldownSeconds
-        sortIndex
         totalCompleted
-        totalFailed
-        totalStarted
-        totalSucceeded
         inputs {
             traitChecks {
                 traitMetadata {
