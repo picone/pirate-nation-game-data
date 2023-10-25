@@ -1,0 +1,611 @@
+{
+  "1": {
+    "name": "Swab the Decks",
+    "descriptions": {
+      "finished": "The decks are clean enough to eat off of. Great job!",
+      "started": "The decks need a good swabbing matey. Let's get to it."
+    }
+  },
+  "2": {
+    "name": "Load Cargo",
+    "descriptions": {
+      "finished": "That was hard work, but it's worth it.",
+      "started": "This cargo needs loading. Let's put our backs into it mate!"
+    }
+  },
+  "3": {
+    "name": "Chop Wood",
+    "descriptions": {
+      "finished": "Good job! Let's put that in the hold for use later.",
+      "started": "We need wood to make stuff. Let's get to chopping swabby!"
+    }
+  },
+  "4": {
+    "name": "Harvest Cotton",
+    "descriptions": {
+      "finished": "Good job matey! Let's put that in the hold for use later.",
+      "started": "The cotton is ready to harvest."
+    }
+  },
+  "5": {
+    "name": "Mine Iron",
+    "descriptions": {
+      "finished": "Good job! Let's put that in the hold for use later.",
+      "started": "Let's scuttle that ore you scallywag."
+    }
+  },
+  "6": {
+    "name": "Collect Mermaid Scales",
+    "descriptions": {
+      "finished": "Those are the Mermaid Scales we were looking for. Great work!",
+      "started": "Use nets to drag the waters for lost booty. We might find Mermaid Scales if we're lucky."
+    }
+  },
+  "7": {
+    "name": "Catch Smugglers",
+    "descriptions": {
+      "finished": "That smugglers Compass will come in handy. Well done!",
+      "started": "Those dirty smugglers stay in the shallows. Use the oars to chase them down!"
+    }
+  },
+  "8": {
+    "name": "Ambush Traders",
+    "descriptions": {
+      "finished": "That is a fancy Spyglass you found. We should be able to put that to good use.",
+      "started": "Traders see us on the horizon a flee. If we anchor in the mists just out of port, they will never see us coming."
+    }
+  },
+  "9": {
+    "name": "Hammer-Dead Sharks",
+    "descriptions": {
+      "finished": "Calm seas and we found some treasure to boot!",
+      "started": "Hammer-Dead sharks are attacking ships in this area. Use the Spyglass to avoid a run in with those beasties."
+    }
+  },
+  "10": {
+    "name": "Follow the Robo-Dolphin",
+    "descriptions": {
+      "finished": "Thanks to Mecha-Flipper we have some new shinies!",
+      "started": "Robo-Dolphins will lead old salty dogs to treasure. Let's see if we can tail one to some goods."
+    }
+  },
+  "11": {
+    "name": "Raid the Landlubbers",
+    "descriptions": {
+      "finished": "Once we were inside the town was ripe for the picking.",
+      "started": "Let's bribe a landlubber guard with a Mermaid scale and sneak into their town."
+    }
+  },
+  "12": {
+    "name": "Down with the Deep Ones",
+    "descriptions": {
+      "finished": "Back to the deep with those ones!",
+      "started": "These slimy bilge rats are scaring off the traders. Time to send them to see Davy Jones!"
+    }
+  },
+  "13": {
+    "name": "A Game of Djinn Rummy",
+    "descriptions": {
+      "finished": "Well done matey!",
+      "started": "That Djinn took our rum! After it!!"
+    }
+  },
+  "14": {
+    "name": "Fight the Dread Pirate Robots",
+    "descriptions": {
+      "finished": "This booty is worth more than a peanut.",
+      "started": "Inconceivable..."
+    }
+  },
+  "15": {
+    "name": "Hunt the Mecha-Whale",
+    "descriptions": {
+      "finished": "Arr, that beast was tough! Good job driving it off mate.",
+      "started": "There she blows, the White Mecha-Whale!"
+    }
+  },
+  "16": {
+    "name": "Weather the Storm",
+    "descriptions": {
+      "finished": "That was a rough storm, but it brought some good to our shores.",
+      "started": "Batten down the hatches, there's a mighty squall coming!"
+    }
+  },
+  "17": {
+    "name": "Defeat the Merman King",
+    "descriptions": {
+      "finished": "That should teach those scaly sea rats a lesson!",
+      "started": "Tritons fury is upon us! To arms!!"
+    }
+  },
+  "18": {
+    "name": "Find the Lost Isle of Gold",
+    "descriptions": {
+      "finished": "Well done and raise those cups! We found riches fit for a true Pirate Lord!",
+      "started": "We found a map to the lost Island of Gold! Let's set sail!"
+    }
+  },
+  "19": {
+    "name": "Chop More Wood",
+    "descriptions": {
+      "finished": "Good job! Let's put that in the hold for use later.",
+      "started": "We need wood to make stuff. Let's get to chopping swabby!"
+    }
+  },
+  "20": {
+    "name": "Harvest More Cotton",
+    "descriptions": {
+      "finished": "Good job matey! Let's put that in the hold for use later.",
+      "started": "The cotton is ready to harvest."
+    }
+  },
+  "21": {
+    "name": "Mine More Iron",
+    "descriptions": {
+      "finished": "Good job! Let's put that in the hold for use later.",
+      "started": "Let's scuttle that ore you scallywag."
+    }
+  },
+  "22": {
+    "name": "Roll the Bones",
+    "descriptions": {
+      "finished": "I couldn't look...did we win?",
+      "started": "Feeling lucky? Ante up and roll those bones for a chance at winning big!"
+    }
+  },
+  "23": {
+    "name": "The Motherload",
+    "descriptions": {
+      "finished": "That's a shiny prize mate. Well done!",
+      "started": "We're hunting a trade ship. Let's hope they have a heavy cargo."
+    }
+  },
+  "24": {
+    "name": "Get Your Sea Legs",
+    "descriptions": {
+      "finished": "That was a valuable lesson.",
+      "started": "Let's review the basics and get this pirate some valuable experience."
+    }
+  },
+  "25": {
+    "name": "A Pirate's Best Friend",
+    "descriptions": {
+      "finished": "More goods for the holds mate!",
+      "started": "We must get a Musket. See what I did there?"
+    }
+  },
+  "26": {
+    "name": "Negotiation Tools",
+    "descriptions": {
+      "finished": "Another successful adventure.",
+      "started": "When negotiating, nothing helps make your point like a Dagger."
+    }
+  },
+  "27": {
+    "name": "Cut to the Point",
+    "descriptions": {
+      "finished": "This stash will look good in our vaults.",
+      "started": "Cutlass, no mate, cut more!"
+    }
+  },
+  "28": {
+    "name": "Meet Billy",
+    "descriptions": {
+      "finished": "More loot for the lads and lasses!",
+      "started": "Let's see if we can locate our old friend Billy Club"
+    }
+  },
+  "29": {
+    "name": "Moving on up",
+    "descriptions": {
+      "finished": "A fine bounty matey!",
+      "started": "A Grappling Hook is like a key for high windows."
+    }
+  },
+  "30": {
+    "name": "Bobo's Bounty",
+    "descriptions": {
+      "finished": "So many old crates of fruit. At least we found some good shinies amongst that mess.",
+      "started": "Legend has it that a monkey became a Pirate Captain, and this map leads to his bounty."
+    }
+  },
+  "31": {
+    "name": "Glitterfin's Glory",
+    "descriptions": {
+      "finished": "The wreckage looked mighty odd, like something burst the hull from the inside. Oh well, let's be off with this treasure now.",
+      "started": "We have located a shipwreck on a small island. The sails have a goldfish on them..."
+    }
+  },
+  "32": {
+    "name": "It's a Slippery Sloop",
+    "descriptions": {
+      "finished": "How did it go? Did they have what you were looking for?",
+      "started": "Try visiting the ship builder to see if they have any plans for a Sloop."
+    }
+  },
+  "33": {
+    "name": "Get that Galleon",
+    "descriptions": {
+      "finished": "How did it go? Did they have what you were looking for?",
+      "started": "Try visiting the ship builder to see if they have any plans for a Galleon."
+    }
+  },
+  "34": {
+    "name": "Any Port in a Storm",
+    "descriptions": {
+      "finished": "How did it go? Did they have what you were looking for?",
+      "started": "Try visiting the ship builder to see if they have any ship plans in stock."
+    }
+  },
+  "35": {
+    "name": "Prepare to Disembark I",
+    "descriptions": {
+      "finished": "That's the first half of the Skiff plan found!",
+      "started": "A Skiff might be a simple ship, but it will get us on the waters. Let's find those plans!"
+    }
+  },
+  "36": {
+    "name": "Prepare to Disembark II",
+    "descriptions": {
+      "finished": "We found the second half of the Skiff plan!",
+      "started": "Let's find the second part of the Skiff plan matey!"
+    }
+  },
+  "37": {
+    "name": "Megalogone with the Win",
+    "descriptions": {
+      "finished": "Did we get the Bandana? We will need it to look really cool on our quest!",
+      "started": "The seas have grown angry. We need to find someone that can help restore balance."
+    }
+  },
+  "38": {
+    "name": "Hey Sailor, What's Kraken",
+    "descriptions": {
+      "finished": "Did we get the Sextant? It's critical to help us find hidden routes while out at sea.",
+      "started": "We need to locate a device to help guide us on our journey."
+    }
+  },
+  "39": {
+    "name": "Restoring the Balance",
+    "descriptions": {
+      "finished": "We will need to keep bugging the King until he makes things right again.",
+      "started": "Time to find the Merfolk King and get him to sort out this mess."
+    }
+  },
+  "40": {
+    "name": "Burn Baby Burn",
+    "descriptions": {
+      "finished": "Good going. A proper pirate deserves a proper vessel.",
+      "started": "Let's disassemble this skiff and make a real ship for ourselves."
+    }
+  },
+  "41": {
+    "name": "Skiff Skirmish",
+    "descriptions": {
+      "finished": "That’s some Skiff.",
+      "started": "It’s just a Skiff, how tough could it be?"
+    }
+  },
+  "42": {
+    "name": "Sloop Sleight",
+    "descriptions": {
+      "finished": "That Sloop got sloppy.",
+      "started": "Let’s give this Sloop the slip."
+    }
+  },
+  "43": {
+    "name": "Raider Routing",
+    "descriptions": {
+      "finished": "We showed those Raiders who's boss.",
+      "started": "It’ll take more than a rogue’s gallery to stop us, eh mate?"
+    }
+  },
+  "44": {
+    "name": "What, the Frigate?",
+    "descriptions": {
+      "finished": "How did it go? Did they have what you were looking for?",
+      "started": "Try visiting the ship builder to see if they have any plans for a Frigate."
+    }
+  },
+  "45": {
+    "name": "Decked Out",
+    "descriptions": {
+      "finished": "Not much of a pirate, says I.",
+      "started": "What's a pirate without his fancies, I ask ye?"
+    }
+  },
+  "46": {
+    "name": "Coin of the Realm",
+    "descriptions": {
+      "finished": "I can't make neither heads nor tails of it.",
+      "started": "It's a toss up."
+    }
+  },
+  "47": {
+    "name": "Make No Bones About It",
+    "descriptions": {
+      "finished": "...and they also make great centerpieces.",
+      "started": "Dead men tell no tales.."
+    }
+  },
+  "48": {
+    "name": "A Twist of Fate",
+    "descriptions": {
+      "finished": "Nothing gained?",
+      "started": "Nothing ventured.."
+    }
+  },
+  "49": {
+    "name": "Returning the Party Favor",
+    "descriptions": {
+      "finished": "Looks just like the original... don't it?",
+      "started": "Spose it weren't too smart to pillage a magical totem, eh? If we return this one mayhaps the curse will be lifted and we'll finally see some fair winds."
+    }
+  },
+  "50": {
+    "name": "Parrot Down",
+    "descriptions": {
+      "finished": "So why do they call it Parrot's Perch?",
+      "started": "I've yet to see a single Parrot perch there."
+    }
+  },
+  "51": {
+    "name": "Science 0",
+    "descriptions": {
+      "finished": "You are Gen 0.",
+      "started": "Just a little science experiment."
+    }
+  },
+  "52": {
+    "name": "Science 1",
+    "descriptions": {
+      "finished": "You are Gen 1.",
+      "started": "Just a little science experiment."
+    }
+  },
+  "53": {
+    "name": "Quest for Booty!",
+    "descriptions": {
+      "finished": "A'Sailin' we will go!",
+      "started": "A Skiff might be a simple ship, but it will get us on the waters."
+    }
+  },
+  "54": {
+    "name": "[FG] Finding the Lost",
+    "descriptions": {
+      "finished": "The gods are watching...",
+      "started": "Who favors us today?"
+    }
+  },
+  "55": {
+    "name": "[FG] The Power of Broship",
+    "descriptions": {
+      "finished": "Who knows where the god's favor will fall next time?",
+      "started": "The Brothers of Broseph bring a bevy of bountiful bonuses."
+    }
+  },
+  "56": {
+    "name": "[FG] Dealer, Deal'em",
+    "descriptions": {
+      "finished": "Who knows where the god's favor will fall next time?",
+      "started": "It wasn't in the cards this time."
+    }
+  },
+  "57": {
+    "name": "[FG] Stay Salty",
+    "descriptions": {
+      "finished": "Who knows where the god's favor will fall next time?",
+      "started": "Gah. Swabs, the lot of 'em."
+    }
+  },
+  "58": {
+    "name": "[FG] Salvage Idols",
+    "descriptions": {
+      "finished": "What do we do with this?",
+      "started": "It wasn't in the cards this time."
+    }
+  },
+  "59": {
+    "name": "[FG] Salvage Idols",
+    "descriptions": {
+      "finished": "What do we do with this?",
+      "started": "It wasn't in the cards this time."
+    }
+  },
+  "60": {
+    "name": "[FG] Salvage Idols",
+    "descriptions": {
+      "finished": "What do we do with this?",
+      "started": "It wasn't in the cards this time."
+    }
+  },
+  "61": {
+    "name": "[FG] Salvage Idols",
+    "descriptions": {
+      "finished": "What do we do with this?",
+      "started": "Ah well, we still have drink!"
+    }
+  },
+  "62": {
+    "name": "[FG] Salvage Idols",
+    "descriptions": {
+      "finished": "What do we do with this?",
+      "started": "Ah well, we still have drink!"
+    }
+  },
+  "63": {
+    "name": "[FG] Salvage Idols",
+    "descriptions": {
+      "finished": "What do we do with this?",
+      "started": "Ah well, we still have drink!"
+    }
+  },
+  "64": {
+    "name": "[FG] Salvage Idols",
+    "descriptions": {
+      "finished": "What do we do with this?",
+      "started": "Gah. Swabs, the lot of 'em."
+    }
+  },
+  "65": {
+    "name": "[FG] Salvage Idols",
+    "descriptions": {
+      "finished": "What do we do with this?",
+      "started": "Gah. Swabs, the lot of 'em."
+    }
+  },
+  "66": {
+    "name": "[FG] Salvage Idols",
+    "descriptions": {
+      "finished": "What do we do with this?",
+      "started": "Gah. Swabs, the lot of 'em."
+    }
+  },
+  "67": {
+    "name": "[FG] Ideal Idols: The Dealer I",
+    "descriptions": {
+      "finished": "What new fate have we been dealt?",
+      "started": "Let's barter for better, eh?"
+    }
+  },
+  "68": {
+    "name": "[FG] Ideal Idols: The Dealer II",
+    "descriptions": {
+      "finished": "What new fate have we been dealt?",
+      "started": "Let's barter for better, eh?"
+    }
+  },
+  "69": {
+    "name": "[FG] Ideal Idols: The Dealer III",
+    "descriptions": {
+      "finished": "What new fate have we been dealt?",
+      "started": "Let's barter for better, eh?"
+    }
+  },
+  "70": {
+    "name": "[FG] Ideal Idols: Broseph I",
+    "descriptions": {
+      "finished": "This calls for a celebration!",
+      "started": "Let's barter for better, eh?"
+    }
+  },
+  "71": {
+    "name": "[FG] Ideal Idols: Broseph II",
+    "descriptions": {
+      "finished": "This calls for a celebration!",
+      "started": "Let's barter for better, eh?"
+    }
+  },
+  "72": {
+    "name": "[FG] Ideal Idols: Broseph III",
+    "descriptions": {
+      "finished": "This calls for a celebration!",
+      "started": "Let's barter for better, eh?"
+    }
+  },
+  "73": {
+    "name": "[FG] Ideal Idols: Old Salt I",
+    "descriptions": {
+      "finished": "Tis better than nothing, says I.",
+      "started": "Let's barter for better, eh?"
+    }
+  },
+  "74": {
+    "name": "[FG] Ideal Idols: Old Salt II",
+    "descriptions": {
+      "finished": "Tis better than nothing, says I.",
+      "started": "Let's barter for better, eh?"
+    }
+  },
+  "75": {
+    "name": "[FG] Ideal Idols: Old Salt III",
+    "descriptions": {
+      "finished": "Tis better than nothing, says I.",
+      "started": "Let's barter for better, eh?"
+    }
+  },
+  "76": {
+    "name": "[FG] Temptation: A New Deal",
+    "descriptions": {
+      "finished": "I fold.",
+      "started": "A tempting offer..."
+    }
+  },
+  "77": {
+    "name": "[FG] Temptation: Ken of Kin",
+    "descriptions": {
+      "finished": "Keep the party going in my absence.",
+      "started": "A tempting offer..."
+    }
+  },
+  "78": {
+    "name": "[FG] Temptation: Tide Change",
+    "descriptions": {
+      "finished": "Bay Leaves add more flavor anyhow.",
+      "started": "A tempting offer..."
+    }
+  },
+  "79": {
+    "name": "[FG] Heresy: Highball? High Roller",
+    "descriptions": {
+      "finished": "There, that should do the trick.",
+      "started": "Lady Luck seems more generous."
+    }
+  },
+  "80": {
+    "name": "[FG] Heresy: Last Call, Landlubber",
+    "descriptions": {
+      "finished": "There, that should do the trick.",
+      "started": "Anchors aweigh! Salvation awaits across the deep blue sea."
+    }
+  },
+  "81": {
+    "name": "[FG] Heresy: High Roller? Highball",
+    "descriptions": {
+      "finished": "There, that should do the trick.",
+      "started": "Belly up to the bar. Let's get this party started right."
+    }
+  },
+  "82": {
+    "name": "[FG] Heresy: Betting on Brine",
+    "descriptions": {
+      "finished": "There, that should do the trick.",
+      "started": "Anchors aweigh! Salvation awaits across the deep blue sea."
+    }
+  },
+  "83": {
+    "name": "[FG] Heresy: Scurvy to Soused",
+    "descriptions": {
+      "finished": "There, that should do the trick.",
+      "started": "Belly up to the bar. Let's get this party started right."
+    }
+  },
+  "84": {
+    "name": "[FG] Heresy: High Seas? High Roller",
+    "descriptions": {
+      "finished": "There, that should do the trick.",
+      "started": "Lady Luck seems more generous."
+    }
+  },
+  "85": {
+    "name": "[FG] Collect Mermaid Scales",
+    "descriptions": {
+      "finished": "Those are the Mermaid Scales we were looking for. Great work!",
+      "started": "Use nets to drag the waters for lost booty. We might find Mermaid Scales if we're lucky."
+    }
+  },
+  "86": {
+    "name": "[FG] Catch Smugglers",
+    "descriptions": {
+      "finished": "That smugglers Compass will come in handy. Well done!",
+      "started": "Those dirty smugglers stay in the shallows. Use the oars to chase them down!"
+    }
+  },
+  "87": {
+    "name": "[FG] Ambush Traders",
+    "descriptions": {
+      "finished": "That is a fancy Spyglass you found. We should be able to put that to good use.",
+      "started": "Traders see us on the horizon a flee. If we anchor in the mists just out of port, they will never see us coming."
+    }
+  }
+}

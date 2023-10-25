@@ -1,0 +1,906 @@
+{
+  "1": {
+    "name": "Pirate's Sloop",
+    "description": "This agile little vessel relies on its superior handling to evade attacks as it can’t take many hits."
+  },
+  "2": {
+    "name": "Wood",
+    "description": "Wood is good for more than replacing a leg. It can be used to create Wooden Oars, and much much more..."
+  },
+  "3": {
+    "name": "Jug of Rum",
+    "description": "A jug of delicious rum. This will restore 5 Energy."
+  },
+  "4": {
+    "name": "Cotton",
+    "description": "Soft, fluffy cotton. This is useful for crafting cool items like Cotton Nets."
+  },
+  "5": {
+    "name": "Iron Ore",
+    "description": "Strong, heavy iron ore. This is useful for crafting items like Iron Anchors."
+  },
+  "6": {
+    "name": "Town Hall",
+    "description": "Raise the flag over your Town Hall and let the Jolly Roger smile!"
+  },
+  "7": {
+    "name": "Bulletin Board",
+    "description": "Ahoy! Need for more gold, iron, loot and booty? Take a job, set sail, succeed and collect your rewards. Savvy?"
+  },
+  "8": {
+    "name": "Blacksmith",
+    "description": "Man the bellows and fire the forge! Visit the Smithy to Craft new items and upgrade old ones."
+  },
+  "9": {
+    "name": "Gold Keg Statue",
+    "description": "A way to honor the container of a pirate's best friend. Very shiny."
+  },
+  "10": {
+    "name": "Parrot Totem",
+    "description": "An emblem of a beautiful and intelligent creature. Looks stackable."
+  },
+  "11": {
+    "name": "Small Rock",
+    "description": "A lump of earth. Modest in size."
+  },
+  "12": {
+    "name": "Medium Rock",
+    "description": "A lump of earth. Average in size."
+  },
+  "13": {
+    "name": "Palm Tree",
+    "description": "It's a tree mate. Good for shade."
+  },
+  "14": {
+    "name": "Bush",
+    "description": "This be a shrub. That's all it be mate."
+  },
+  "15": {
+    "name": "Wood Chest",
+    "description": "A treasure chest made out of wood. Kinda light and smells like a tree."
+  },
+  "16": {
+    "name": "Founder's Iron Chest",
+    "description": "An Iron clad treasure chest. Heavy-ish she be."
+  },
+  "17": {
+    "name": "Founder's Bronze Chest",
+    "description": "Bronzed be this treasure chest. Me heart grows heavier with delight of its weight."
+  },
+  "18": {
+    "name": "Founder's Silver Chest",
+    "description": "Silver like the moon over the seas this beauty treasure chest be. Kinda heavy now says I."
+  },
+  "19": {
+    "name": "Founder's Gold Chest",
+    "description": "A Golden Treasure Chest that glistens like the morning sun over the horizon. Definitely heavy with hopes of fine treasure."
+  },
+  "20": {
+    "name": "Founder's Map Piece I",
+    "description": "Well lookey here me matey, a Founder’s Map with inklings of it leading to something special."
+  },
+  "21": {
+    "name": "Founder's Map Piece II",
+    "description": "Well shiver me timbers! A Founder’s Map, it looks like it points to something a pirate would love."
+  },
+  "22": {
+    "name": "Founder's Map Piece III",
+    "description": "A Founder’s Map just itching to tell us where it hides some juicy treasure."
+  },
+  "23": {
+    "name": "Founder's Map Piece IV",
+    "description": "A Founder’s Map, let's unlock its secrets and its treasure location."
+  },
+  "24": {
+    "name": "Mailbox",
+    "description": "A way to receive news that is personal to you."
+  },
+  "25": {
+    "name": "Pirate Nation Flag",
+    "description": "Mark yer isle with yer colors and show all those scallywags that it be yer sand they be standing on."
+  },
+  "26": {
+    "name": "Gold Pirate Statue",
+    "description": "A way to honor some scallywag. Very shiny."
+  },
+  "27": {
+    "name": "Cherry Blossom Tree",
+    "description": "A tree that has beautiful pink flowers."
+  },
+  "28": {
+    "name": "Large Rock",
+    "description": "A lump of earth. Kind of massive in size."
+  },
+  "29": {
+    "name": "Fence",
+    "description": "Keeps out unwanted visitors."
+  },
+  "30": {
+    "name": "Monkey Totem",
+    "description": "A totem of Bobo, the Monkey Pirate! Looks stackable."
+  },
+  "31": {
+    "name": "Goldfish Totem",
+    "description": "A totem of a forgetful creature. Looks stackable."
+  },
+  "32": {
+    "name": "Goblin Totem",
+    "description": "A totem of a mischievous creature. Looks stackable."
+  },
+  "34": {
+    "name": "Topiary Pirate Statue",
+    "description": "A way to honor some scallywag. Well-trimmed."
+  },
+  "35": {
+    "name": "Rogue's Galleon",
+    "description": "A rare galleon fit for pirate royalty."
+  },
+  "36": {
+    "name": "Energy Coil",
+    "description": "Get a charge every day from this mecha-sparky-thing! Generates a Flask of Rum daily. NOTE: Only one Energy Coil is effective per Starter Island."
+  },
+  "37": {
+    "name": "Triple Wind Mill",
+    "description": "Wind? Rum. Magic! Generates a Jug of Rum daily. NOTE: Only one Triple Wind Mill is effective per Starter Island."
+  },
+  "39": {
+    "name": "Hammock",
+    "description": "Take a proper snooze at bedtime or lollygag the day away you lazy scurvy dog."
+  },
+  "40": {
+    "name": "Pirate Archway",
+    "description": "A curved entrance. Pirate-y in nature."
+  },
+  "41": {
+    "name": "Tiki Head Statue",
+    "description": "A statue of a tiki head."
+  },
+  "42": {
+    "name": "Tiki Bar",
+    "description": "A must-have for a pirate party."
+  },
+  "43": {
+    "name": "Inflatable Pirate",
+    "description": "Why I've never seen a finer representation of a Pirate full of hot air."
+  },
+  "44": {
+    "name": "Barrrbecue",
+    "description": "A must-have when celebrating on yer Island with yer mateys!"
+  },
+  "45": {
+    "name": "Marketplace",
+    "description": "Buy and sell value goods here."
+  },
+  "46": {
+    "name": "Bank",
+    "description": "A place to manage yer booty!"
+  },
+  "47": {
+    "name": "Stone Pathway",
+    "description": "A pathway made of stone."
+  },
+  "48": {
+    "name": "Compass",
+    "description": "Find yer way with this handy little do-dad."
+  },
+  "49": {
+    "name": "Spyglass",
+    "description": "This helps ye see what's on the horizon."
+  },
+  "50": {
+    "name": "Mermaid Scale",
+    "description": "Mermaids will shed these pretty scales on rare occasions."
+  },
+  "51": {
+    "name": "Wooden Oar",
+    "description": "Wooden Oars be used to move yer ship through the shallows and when the wind dies down."
+  },
+  "52": {
+    "name": "Iron Anchor",
+    "description": "Anchors will hold yer ship still in the storm matey."
+  },
+  "53": {
+    "name": "Cotton Net",
+    "description": "Nets be used to haul things up from the deep."
+  },
+  "54": {
+    "name": "Flask of Rum",
+    "description": "A flask of delicious rum. This will restore 2 Energy."
+  },
+  "55": {
+    "name": "Keg of Rum",
+    "description": "A keg of delicious rum. This will restore 25 Energy."
+  },
+  "56": {
+    "name": "Kelp",
+    "description": "The grass of the sea, only longer...and slimy."
+  },
+  "57": {
+    "name": "Coral Reef",
+    "description": "Home to many beautiful fish."
+  },
+  "58": {
+    "name": "Skeleton in the Sand",
+    "description": "That poor mate drank his last jug. Not the worst way to go."
+  },
+  "63": {
+    "name": "Pirate's Galleon",
+    "description": "This mid-sized, stout ship is the heart of any fleet."
+  },
+  "64": {
+    "name": "Pirate's Skiff",
+    "description": "The Skiff lacks in most areas, but it's seaworthy."
+  },
+  "65": {
+    "name": "Pirate's Frigate",
+    "description": "This ship is the heart of any fleet and a real powerhouse on the open seas."
+  },
+  "66": {
+    "name": "Pirate's Marauder",
+    "description": "This ship is the elite war ship and a battle master of the open seas."
+  },
+  "67": {
+    "name": "Iron Cannonball",
+    "description": "A ball of iron that goes in a cannon…appropriately named don't you think?"
+  },
+  "68": {
+    "name": "Iron Cannon",
+    "description": "Ignite the fuse to make holes in your target. Affix to a ship to add Heavy Blow to its deck. Only one card of each type may be added this way."
+  },
+  "69": {
+    "name": "Wooden Helm",
+    "description": "This here wheel turns, and the boats follows. Affix to a ship to add Careful Planning to its deck. Only one card of each type may be added this way."
+  },
+  "70": {
+    "name": "Faded Map",
+    "description": "This faded old map looks like it might lead to a treasure of some kind!"
+  },
+  "71": {
+    "name": "Puzzle Totem",
+    "description": "Avast! This totem represents that you are a Pirate Nation puzzle winner! U R Smart."
+  },
+  "72": {
+    "name": "Cannon Fuse",
+    "description": "This is an explosively important part that is used in the crafting of a cannon."
+  },
+  "73": {
+    "name": "Wooden Column",
+    "description": "This holds the ship's helm. That's the wheel thingy for you landlubbers out there."
+  },
+  "74": {
+    "name": "Hemp Rope",
+    "description": "Ropes are to a ship's sails as a belt is to a pirates pants."
+  },
+  "75": {
+    "name": "Iron Rivets",
+    "description": "These are used to hold the reinforced hull plates to the ship."
+  },
+  "76": {
+    "name": "Worn Copper Coin",
+    "description": "An ancient, worn copper coin from a forgotten era."
+  },
+  "77": {
+    "name": "Glimmering Silver Coin",
+    "description": "A well-worn silver piece that appears to be hundreds of years old. It still glimmers when polished."
+  },
+  "78": {
+    "name": "Ancient Gold Coin",
+    "description": "A tarnished gold coin from a fallen civilization. It radiates with an aura of power."
+  },
+  "79": {
+    "name": "Iron Needle",
+    "description": "This is the pointy thingy in a sight that marks the target that is about to get hit by a heavy round thingy."
+  },
+  "80": {
+    "name": "High Seas Map",
+    "description": "This pretty map promises adventures on the high seas."
+  },
+  "81": {
+    "name": "Cutlass",
+    "description": "Cutlass. No sir. I say cut more!"
+  },
+  "82": {
+    "name": "Billy Club",
+    "description": "It's always good to have Billy around, just in case."
+  },
+  "83": {
+    "name": "Iron Armor",
+    "description": "These plates will provide some protection from those cannons. Affix to a ship to add Hardened Shield to its deck. Only one card of each type may be added this way."
+  },
+  "84": {
+    "name": "Plans: Sloop I",
+    "description": "Collect all 4 plans to create Completed Plans: Sloop."
+  },
+  "85": {
+    "name": "Plans: Sloop II",
+    "description": "Collect all 4 plans to create Completed Plans: Sloop."
+  },
+  "86": {
+    "name": "Plans: Sloop III",
+    "description": "Collect all 4 plans to create Completed Plans: Sloop."
+  },
+  "87": {
+    "name": "Plans: Sloop IV",
+    "description": "Collect all 4 plans to create Completed Plans: Sloop."
+  },
+  "88": {
+    "name": "Plans: Galleon I",
+    "description": "Collect all 4 plans to create Completed Plans: Galleon."
+  },
+  "89": {
+    "name": "Plans: Galleon II",
+    "description": "Collect all 4 plans to create Completed Plans: Galleon."
+  },
+  "90": {
+    "name": "Plans: Galleon III",
+    "description": "Collect all 4 plans to create Completed Plans: Galleon."
+  },
+  "91": {
+    "name": "Plans: Galleon IV",
+    "description": "Collect all 4 plans to create Completed Plans: Galleon."
+  },
+  "92": {
+    "name": "Iron Sights",
+    "description": "Cannons can be a bit inaccurate, but these Sights will help them hit their target. Affix to a ship to add Hit the Dry Powder to its deck. Only one card of each type may be added this way."
+  },
+  "93": {
+    "name": "Fish Food",
+    "description": "This shaker contains fish food. Seems harmless."
+  },
+  "94": {
+    "name": "Crate of Bananas",
+    "description": "A simple crate of bananas. Right?"
+  },
+  "95": {
+    "name": "Grappling Hook",
+    "description": "This little thing allows you to reach new heights."
+  },
+  "96": {
+    "name": "Dagger",
+    "description": "Nothing helps get your point across when negotiating like a dagger."
+  },
+  "97": {
+    "name": "Musket",
+    "description": "A pirate's best friend."
+  },
+  "98": {
+    "name": "Cotton Sail",
+    "description": "These sails will give your ship some zip! Affix to a ship to add Act with Haste to its deck. Only one card of each type may be added this way."
+  },
+  "99": {
+    "name": "Docks",
+    "description": "Sittin' on the Dock of the Bay…"
+  },
+  "100": {
+    "name": "Plans: Skiff I",
+    "description": "Collect both plans to create Completed Plans: Skiff"
+  },
+  "101": {
+    "name": "Plans: Skiff II",
+    "description": "Collect both plans to create Completed Plans: Skiff"
+  },
+  "102": {
+    "name": "Completed Plan: Skiff",
+    "description": "This is a completed Plan for a Skiff class pirate ship."
+  },
+  "103": {
+    "name": "Completed Plan: Sloop",
+    "description": "This is a completed Plan for a Sloop class pirate ship."
+  },
+  "104": {
+    "name": "Completed Plan: Galleon",
+    "description": "This is a completed Plan for a Galleon class pirate ship."
+  },
+  "105": {
+    "name": "Founder's Whoopsie Chest",
+    "description": "Odd looking chest that seems to be of unknown origin. There are words inscribed on the side: 'devs do something!'"
+  },
+  "106": {
+    "name": "Trivia Totem",
+    "description": "A curious totem for know-it-alls."
+  },
+  "107": {
+    "name": "Completed Founder's Map",
+    "description": "The four pieces of the Founder's Map merged into this completed map, which show the way to a valuable treasure!"
+  },
+  "108": {
+    "name": "Bruce Totem",
+    "description": "This totem celebrates the defeat of Bruce, the Megalodon World Boss. This is proof that this megalodon is now extinct!"
+  },
+  "109": {
+    "name": "Urza Totem",
+    "description": "This totem celebrates the defeat of Urza, the Kraken World Boss. It was released…from its mortal coil!"
+  },
+  "110": {
+    "name": "Jormungandr Totem",
+    "description": "This totem celebrates the defeat of Jormungandr, the Sea Serpent World Boss. It was fast, we were faster!"
+  },
+  "111": {
+    "name": "World Boss Event Totem",
+    "description": "This strange object radiates ill omens."
+  },
+  "112": {
+    "name": "Bruce",
+    "description": "This beastie is larger than a whale and as mean as they come. We are going to need a bigger boat."
+  },
+  "113": {
+    "name": "Urza",
+    "description": "This massive magma mollusk slithered from the depths of the abyss to wreak havoc. Beware its fiery wrath!"
+  },
+  "114": {
+    "name": "Jormungandr",
+    "description": "Woe be it those that cross the path of this beast."
+  },
+  "115": {
+    "name": "Founder's Oops!...I Did It Again Chest",
+    "description": "This shiny red chest radiates a soft, forgiving golden hue. The faint melody of a long past sea shanty emanates from within."
+  },
+  "116": {
+    "name": "Founder's Platinum Chest",
+    "description": "This chest radiates value and a strange sense of chaos. Within lies riches and a chance of legendary treasures!"
+  },
+  "117": {
+    "name": "Bandana",
+    "description": "Looks stylish and stops the wind from chapping your lips."
+  },
+  "118": {
+    "name": "Sextant",
+    "description": "Navigate with this thing and you will get to where you want to be."
+  },
+  "119": {
+    "name": "The Banshee's Wail",
+    "description": "The spectral form of this accursed galleon has been spotted throughout the Infinite Isles. Its arrival is heralded by the eerie banshee's cry, an ominous screech dooming those who dare cross its path."
+  },
+  "120": {
+    "name": "Pirate Buoy",
+    "description": "A curious sight on the open sea - the Pirate Buoy. Those brave enough to click on it will be transported to the Daily Dungeons, where they'll face challenging encounters in search of worthy booty. But beware, for the dungeons hold secrets that only the bravest adventurers can uncover..."
+  },
+  "121": {
+    "name": "Overworld Galleon",
+    "description": "Set sail with the power of Overworld and Pirate Nation. A deadly combination for the ultimate gaming adventure."
+  },
+  "122": {
+    "name": "Gauntlet Chest I",
+    "description": "Open this to reveal rewards gained from Gauntlets!"
+  },
+  "123": {
+    "name": "Gauntlet Chest II",
+    "description": "Open this to reveal rewards gained from Gauntlets!"
+  },
+  "124": {
+    "name": "Gauntlet Chest III",
+    "description": "Open this to reveal rewards gained from Gauntlets!"
+  },
+  "125": {
+    "name": "Gauntlet Chest IV",
+    "description": "Open this to reveal rewards gained from Gauntlets!"
+  },
+  "126": {
+    "name": "Fishing Poles",
+    "description": "There's nothing better than relaxing on the beach with a line in the water, even if the fish aren't biting."
+  },
+  "127": {
+    "name": "Beach Loungers",
+    "description": "Kicking back in a comfortable chair with a Jug of Rum, or several, is a great way to unwind."
+  },
+  "128": {
+    "name": "Island Rowboat",
+    "description": "This small boat will take you to your island."
+  },
+  "129": {
+    "name": "Small Stones",
+    "description": "Don't throw these if you live in a glass house...seriously."
+  },
+  "130": {
+    "name": "Green Hedge",
+    "description": "A lovely, decorative hedge."
+  },
+  "131": {
+    "name": "Skeleton on a Rock",
+    "description": "That looks uncomfortable."
+  },
+  "132": {
+    "name": "Wooden Barrel",
+    "description": "A old barrel that can no longer hold water or rum."
+  },
+  "133": {
+    "name": "Small Sand Castle",
+    "description": "Sand castles don't take as long to build as real ones."
+  },
+  "134": {
+    "name": "Medium Sand Castle",
+    "description": "Sand castles don't take as long to build as real ones."
+  },
+  "135": {
+    "name": "Large Sand Castle",
+    "description": "Sand castles don't take as long to build as real ones."
+  },
+  "136": {
+    "name": "Small Fishbone",
+    "description": "This fishbone was exposed to everyday sunshine."
+  },
+  "137": {
+    "name": "Pink Clamshell",
+    "description": "A clam with pretty surprise inside. Look, but don't touch."
+  },
+  "138": {
+    "name": "Grass Tuft",
+    "description": "A simple tuft of grass."
+  },
+  "139": {
+    "name": "Hanging Cage",
+    "description": "Skallywags that misbehave get put into the cage!"
+  },
+  "140": {
+    "name": "Purple Conch Shell",
+    "description": "A nice purple conch shell. Make sure it is empty before you put it to your ear."
+  },
+  "141": {
+    "name": "Green Bottle",
+    "description": "This was once a container for a delicious liquid."
+  },
+  "142": {
+    "name": "Skull Wagon",
+    "description": "A wagon with a few skulls in it...nothing weird about that."
+  },
+  "143": {
+    "name": "Orange Starfish",
+    "description": "A lovely orange starfish."
+  },
+  "144": {
+    "name": "Pink Shell on Rock",
+    "description": "A nice seashell on a nice rock."
+  },
+  "145": {
+    "name": "Skeleton with Rum",
+    "description": "Serves them right for drinking all me rum!"
+  },
+  "146": {
+    "name": "Wrecked Cannon",
+    "description": "Part of a once mighty ship, now a reminder to sail the sea with caution."
+  },
+  "147": {
+    "name": "Wrecked Hull",
+    "description": "Part of a once mighty ship, now a reminder to sail the sea with caution."
+  },
+  "148": {
+    "name": "Wrecked Crow's Nest",
+    "description": "Part of a once mighty ship, now a reminder to sail the sea with caution."
+  },
+  "149": {
+    "name": "Wrecked Mast",
+    "description": "Part of a once mighty ship, now a reminder to sail the sea with caution."
+  },
+  "150": {
+    "name": "Blue Starfish",
+    "description": "A lovely blue starfish."
+  },
+  "151": {
+    "name": "White Clam and Driftwood",
+    "description": "Some beach debris, including a clam and some driftwood."
+  },
+  "152": {
+    "name": "Yellow Sea Flower",
+    "description": "This pretty flower prefers salt water, please."
+  },
+  "153": {
+    "name": "Small School of Silver Fish",
+    "description": "That is a smart looking school of fish."
+  },
+  "154": {
+    "name": "Purple Clam Shell",
+    "description": "A pretty purple seashell."
+  },
+  "155": {
+    "name": "Scuttled Cargo",
+    "description": "Sometimes you need to let go to move forward."
+  },
+  "156": {
+    "name": "Small Rock and Driftwood",
+    "description": "Some beach debris, including a rock and some driftwood."
+  },
+  "157": {
+    "name": "Small Algae Bloom",
+    "description": "It's not easy being green."
+  },
+  "158": {
+    "name": "Large Iceberg",
+    "description": "This is great to have around when you need something to cool off your drink."
+  },
+  "159": {
+    "name": "Red Crate",
+    "description": "This is a crate. There are many like it, but this one is Red."
+  },
+  "160": {
+    "name": "Orange Crate",
+    "description": "This is a crate. There are many like it, but this one is Orange."
+  },
+  "161": {
+    "name": "Yellow Crate",
+    "description": "This is a crate. There are many like it, but this one is Yellow."
+  },
+  "162": {
+    "name": "Green Crate",
+    "description": "This is a crate. There are many like it, but this one is Green."
+  },
+  "163": {
+    "name": "Blue Crate",
+    "description": "This is a crate. There are many like it, but this one is Blue."
+  },
+  "164": {
+    "name": "Purple Crate",
+    "description": "This is a crate. There are many like it, but this one is Purple."
+  },
+  "165": {
+    "name": "Brown Crate",
+    "description": "This is a crate. There are many like it, but this one is Brown."
+  },
+  "166": {
+    "name": "Black Crate",
+    "description": "This is a crate. There are many like it, but this one is Black."
+  },
+  "167": {
+    "name": "Dark Grey Crate",
+    "description": "This is a crate. There are many like it, but this one is Dark Grey."
+  },
+  "168": {
+    "name": "Grey Crate",
+    "description": "This is a crate. There are many like it, but this one is Grey."
+  },
+  "169": {
+    "name": "Light Grey Crate",
+    "description": "This is a crate. There are many like it, but this one is Light Grey."
+  },
+  "170": {
+    "name": "White Crate",
+    "description": "This is a crate. There are many like it, but this one is White."
+  },
+  "171": {
+    "name": "Plans: Frigate I",
+    "description": "Collect all 4 plans to create Completed Plan: Frigate."
+  },
+  "172": {
+    "name": "Plans: Frigate II",
+    "description": "Collect all 4 plans to create Completed Plan: Frigate."
+  },
+  "173": {
+    "name": "Plans: Frigate III",
+    "description": "Collect all 4 plans to create Completed Plan: Frigate."
+  },
+  "174": {
+    "name": "Plans: Frigate IV",
+    "description": "Collect all 4 plans to create Completed Plan: Frigate."
+  },
+  "175": {
+    "name": "Completed Plan: Frigate",
+    "description": "This is a Completed Plan for a Frigate class pirate ship."
+  },
+  "176": {
+    "name": "Founder's Trade License",
+    "description": "The coveted Founder's Trade License allows one to export earned goods. 'Tis a rare item bestowed only to original generation pirates."
+  },
+  "177": {
+    "name": "Bird of Paradise Plant",
+    "description": "The exotic Bird of Paradise adds a touch of the tropics to yer isle. An exquisite flora to remind ye of exotic ports afar."
+  },
+  "178": {
+    "name": "Pirate Fence",
+    "description": "Secure yer haven with a Pirate Fence! Keeps out landlubbers and adds a touch of buccaneer charm to yer personal island."
+  },
+  "179": {
+    "name": "Pirate Fencepost",
+    "description": "Sturdy and weathered, the Pirate Fencepost anchors yer Pirate Fence, ensuring yer island remains a sanctuary for true pirates."
+  },
+  "180": {
+    "name": "Pirate Lamp",
+    "description": "The lamp burns bright, in the darkest of night."
+  },
+  "181": {
+    "name": "Pirate Pathway",
+    "description": "This pathway was either made by a pirate, or meant to lead you to one. Or both."
+  },
+  "182": {
+    "name": "Iron Shovel",
+    "description": "An iron tool used for unearthing basic buried treasures. Can you dig it?"
+  },
+  "183": {
+    "name": "Iron Pick",
+    "description": "You can technically use any tool to mine for resources. \nGo ahead, take your pick!"
+  },
+  "184": {
+    "name": "Iron Axe",
+    "description": "With this Iron Axe you'll finally be able to shiver your timbers."
+  },
+  "185": {
+    "name": "Short Palm Tree",
+    "description": "...More of a parrot-sized palm, this one is."
+  },
+  "186": {
+    "name": "Tiki Totem",
+    "description": "With a blazing gaze and a leering grin, the essence of the mischievous Pipo spirit inhabits this wooden carving."
+  },
+  "187": {
+    "name": "Small Conch Shell",
+    "description": "A conch shell. For pirates not too keen on purple or subtlety."
+  },
+  "188": {
+    "name": "Purple Palm",
+    "description": "How d'ye spose they get so purple?"
+  },
+  "189": {
+    "name": "Pipo's Periwinkle",
+    "description": "Curry Pipo's favor with a few favored flowers."
+  },
+  "190": {
+    "name": "Red Ruby",
+    "description": "A crimson gemstone that sparkles like the last rays of a sunset over the Infinite Isles."
+  },
+  "191": {
+    "name": "Orange Citrine",
+    "description": "A radiant gemstone that glows like a tropical sunrise."
+  },
+  "192": {
+    "name": "Yellow Topaz",
+    "description": "Aye, this glitterin' yellow topaz gleams like the lost gold o' pirates past!"
+  },
+  "193": {
+    "name": "Green Emerald",
+    "description": "An emerald gemstone reflecting the verdant hues of tropical isles."
+  },
+  "194": {
+    "name": "Blue Sapphire",
+    "description": "An azure gemstone evoking the fathomless depths of the seas."
+  },
+  "195": {
+    "name": "Pink Sapphire",
+    "description": "This rosy jewel's prettier than a sea nymph's blush when she spies a handome pirate!"
+  },
+  "196": {
+    "name": "Violet Amethyst",
+    "description": "A regal gemstone reflecting the majesty of the high seas."
+  },
+  "197": {
+    "name": "Electrock",
+    "description": "This mystical ore crackles with electrical energy. Refine it to power all manner of mechanical curios."
+  },
+  "198": {
+    "name": "Silk",
+    "description": "A smooth, lightweight cloth as fine as a sea mist."
+  },
+  "199": {
+    "name": "Ether",
+    "description": "An arcane glyph harnessing raw energy channeled from the cosmos."
+  },
+  "200": {
+    "name": "Mecha Walkway",
+    "description": "Heavy Metal. Good thing it's already on the ground."
+  },
+  "201": {
+    "name": "Mecha Lamp",
+    "description": "Just go with the flow.. of electricity."
+  },
+  "202": {
+    "name": "Mecha Totem",
+    "description": "Yar! Lay eyes on this metal monolith and pay respects to the bots who keep yer isle a'runnin'!"
+  },
+  "203": {
+    "name": "Mecha Tree",
+    "description": "WARNING: May attract power-hungry squirrels and rustleaf fungus."
+  },
+  "204": {
+    "name": "Pearl",
+    "description": "Shimmering pearls can be collected or combined into crafts to create luxurious goods."
+  },
+  "205": {
+    "name": "Honorable Pirate Helm",
+    "description": "A prestigious award recognizing exemplary conduct, upholding pirate values, and steering the spirit of the community."
+  },
+  "209": {
+    "name": "The Dealer's Tablet",
+    "description": "An ancient tablet that has a star-chart etched into it. It bears the markings of The Dealer."
+  },
+  "210": {
+    "name": "Broseph's Tablet",
+    "description": "An ancient tablet that has a star-chart etched into it. It bears the markings of Broseph."
+  },
+  "211": {
+    "name": "Old Salt's Tablet",
+    "description": "An ancient tablet that has a star-chart etched into it. It bears the markings of Old Salt."
+  },
+  "212": {
+    "name": "The Dealer's Idol I",
+    "description": "This is part 1 of 3 of The Dealer's Idol."
+  },
+  "213": {
+    "name": "The Dealer's Idol II",
+    "description": "This is part 2 of 3 of The Dealer's Idol."
+  },
+  "214": {
+    "name": "The Dealer's Idol III",
+    "description": "This is part 3 of 3 of The Dealer's Idol."
+  },
+  "215": {
+    "name": "Completed Idol: The Dealer",
+    "description": "This is a completed Idol for The Dealer. She is a long-forgotten god of the Infinite Isles, overseeing matters of risk and reward."
+  },
+  "216": {
+    "name": "Broseph's Idol I",
+    "description": "This is part 1 of 3 of Broseph's Idol."
+  },
+  "217": {
+    "name": "Broseph's Idol II",
+    "description": "This is part 2 of 3 of Broseph's Idol."
+  },
+  "218": {
+    "name": "Broseph's Idol III",
+    "description": "This is part 3 of 3 of Broseph's Idol."
+  },
+  "219": {
+    "name": "Completed Idol: Broseph",
+    "description": "This is a completed Idol for Broseph. They are a long-forgotten god of the Infinite Isles, overseeing matters of comradery and ribaldry."
+  },
+  "220": {
+    "name": "Old Salt's Idol I",
+    "description": "This is part 1 of 3 of Old Salt's Idol."
+  },
+  "221": {
+    "name": "Old Salt's Idol II",
+    "description": "This is part 2 of 3 of Old Salt's Idol."
+  },
+  "222": {
+    "name": "Old Salt's Idol III",
+    "description": "This is part 3 of 3 of Old Salt's Idol."
+  },
+  "223": {
+    "name": "Completed Idol: Old Salt",
+    "description": "This is a completed Idol for Old Salt. He is a long-forgotten god of the Infinite Isles, overseeing matters of salt and the sea."
+  },
+  "224": {
+    "name": "Idol Dust",
+    "description": "In the end, we all return to dust."
+  },
+  "225": {
+    "name": "[FG] Gauntlet Chest I",
+    "description": "Open this to reveal rewards gained from Gauntlets! The gods are watching..."
+  },
+  "226": {
+    "name": "[FG] Gauntlet Chest II",
+    "description": "Open this to reveal rewards gained from Gauntlets! The gods are watching..."
+  },
+  "227": {
+    "name": "[FG] Gauntlet Chest III",
+    "description": "Open this to reveal rewards gained from Gauntlets! The gods are watching..."
+  },
+  "228": {
+    "name": "[FG] Gauntlet Chest IV",
+    "description": "Open this to reveal rewards gained from Gauntlets! The gods are watching..."
+  },
+  "229": {
+    "name": "Swashbuckler's Squash",
+    "description": "Perfect for adorning pirate ships and rugged coastal hideaways."
+  },
+  "230": {
+    "name": "Scallywag's Gourd",
+    "description": "An ideal centerpiece for a pirate-themed island feast!"
+  },
+  "231": {
+    "name": "Plunderer's Pumpkin",
+    "description": "With its classic shape and deep orange hue, this pumpkin is the ultimate choice for carving."
+  },
+  "232": {
+    "name": "The Scurvy Specter",
+    "description": "This jack-o'-lantern boasts a haunting grin carved into its rugged surface, casting an eerie glow for pirate ship night watchmen."
+  },
+  "233": {
+    "name": "Haunted Pathway",
+    "description": "Weathered and worn like the tales of lost souls."
+  },
+  "234": {
+    "name": "Ghoulwood Tree",
+    "description": "A cursed, twisted tree that haunts the night, keeping all who dare venture close in the grip of Davy Jones."
+  },
+  "235": {
+    "name": "Chronicles of Converts",
+    "description": "This document relays the first-hand tales of those who found greater purpose and meaning with a change of faith. Read on and let yer eyes be opened to new truths."
+  }
+}

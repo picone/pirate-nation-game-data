@@ -1,0 +1,22 @@
+{
+  "1": {
+    "name": "Pirate's Sloop",
+    "description": "This agile little vessel relies on its superior handling to evade attacks as it can’t take many hits."
+  },
+  "2": {
+    "name": "Rogue's Galleon",
+    "description": "A rare galleon fit for pirate royalty."
+  },
+  "3": {
+    "name": "Pirate's Galleon",
+    "description": "This mid-sized, stout ship is the heart of any fleet."
+  },
+  "4": {
+    "name": "Pirate's Skiff",
+    "description": "The Skiff lacks in most areas, but it's seaworthy."
+  },
+  "5": {
+    "name": "Pirate's Frigate",
+    "description": "This ship is the heart of any navy and a real powerhouse on the open seas."
+  }
+}

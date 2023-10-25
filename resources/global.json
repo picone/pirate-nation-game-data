@@ -1,0 +1,324 @@
+{
+  "data": {
+    "gameGlobals": [
+      {
+        "id": "0x1ada1c4f0bf7a34304c59707fc1f9901cdd617683069039c5406f209beef84da",
+        "name": "max_account_xp_threshold",
+        "dataType": "UINT256",
+        "value": "999"
+      },
+      {
+        "id": "0x1b4bd2e183a359fa20173a94f1b2295117008ea85b969e3e870e41678d595541",
+        "name": "scene.placement_cooldown_secs",
+        "dataType": "UINT256",
+        "value": "30"
+      },
+      {
+        "id": "0x1be7f9ccba39b41e85a86fdce5c1549e399dfd83d67c81dcf5c2cd50617fe92f",
+        "name": "tokentype.piratenft.images.default",
+        "dataType": "STRING_ARRAY",
+        "value": "[ipfs://QmRpAG1V5HDwY3b4DWsxtMCCjL59izFJp6AjGwQhAnkUMp/,ipfs://QmdnsH8mf1rN8C8w9Km3Et84VEqfTgDb2yJP5CWtKVwFxw/,ipfs://QmeBen9iF2RQQP7h5haQjWKKxBUmmVMVzc3wGmveENuEZ5/,ipfs://QmS6NZdWohD5qoNc7xb3cHHcx5Z1Bwz7T8KgihpFwAFw3b/,ipfs://QmNjMghVe3Kvz566v2JqYA3cSejAsdqNJ17EGgZgiHXjW6/,ipfs://QmYDfEyXRkjqxa2ekydNPfjVNAeM1ucDgDhWkPoqr52fx2/,ipfs://QmTnATwuhStA2cxhd7qUwN6FsbeYmR7BNEKxpDNHGq24CB/,ipfs://QmWH69zCcCBiZ89mHtzrfvePevAHWCrbDJHCmUBtpa8Ni7/,ipfs://Qmeg5A5GinamwMUurC6MaoEns2FdLkyCvMMG43t2CHgkif/,ipfs://QmRpAG1V5HDwY3b4DWsxtMCCjL59izFJp6AjGwQhAnkUMp/]"
+      },
+      {
+        "id": "0x30b48203ac2470eedae77e6d957b0096bb1e2d716114f02f4b2767a85c05a490",
+        "name": "expertise.multiplierperlevel.damage",
+        "dataType": "UINT256",
+        "value": "1250000000"
+      },
+      {
+        "id": "0x335eddd0b5f257c4e38363834fbf905fa4f5c818b0185c0ad5f561658dc1c695",
+        "name": "daily_energy_amount",
+        "dataType": "UINT256",
+        "value": "150000000000000000000"
+      },
+      {
+        "id": "0x3aba2503faad59e759c7447c4626ac8e4183b9b51b37c95781413b6f44e61838",
+        "name": "energy_earnable_regen_secs",
+        "dataType": "UINT256",
+        "value": "3600"
+      },
+      {
+        "id": "0x4652a1f775b10e10391cf92001c9fcc9c74a77f40e21f860a317bcab294acb5",
+        "name": "expertise.levelmultiplier.damage",
+        "dataType": "INT256",
+        "value": "1250000000000000000"
+      },
+      {
+        "id": "0x491b33c14791ee16143bf7ec77be43307de197e95206dc62bf4192a3fb9092a9",
+        "name": "daily_energy_regen_secs",
+        "dataType": "UINT256",
+        "value": "3600"
+      },
+      {
+        "id": "0x4938f2dc33fec72a81647d2984d5a61d4a39153b2ec6ecdd6a00fadfda8b1dd0",
+        "name": "expertise.multiplierperlevel.health",
+        "dataType": "UINT256",
+        "value": "1250000000"
+      },
+      {
+        "id": "0x5997a7d534a970ced0ba5b6c19b2a6718281c7ff66a31b6068e540e5f9b18514",
+        "name": "boss_battle.max_move_count",
+        "dataType": "UINT256",
+        "value": "10"
+      },
+      {
+        "id": "0x599b5d1c378777282b1b531ff1bf7cda82e04094eaab1ec2408dedae80ec1695",
+        "name": "trade_license_game_items_id",
+        "dataType": "UINT256",
+        "value": "176"
+      },
+      {
+        "id": "0x59b2b350092c0785046aeae1f3697d8fde99a6c484e207f24923f0c4126279ba",
+        "name": "coremovesystem.move.powerstrike",
+        "dataType": "INT256_ARRAY",
+        "value": "[\"30000000000\",\"-10000000000\",\"-10000000000\",\"-10000000000\",\"0\"]"
+      },
+      {
+        "id": "0x61c2f3b3b2f84c9e50eba4bc012a946b80b2beef61e6469cf154f577d56771bd",
+        "name": "account_xp_thresholds",
+        "dataType": "UINT256_ARRAY",
+        "value": "[\"0\",\"75\",\"160\",\"295\",\"485\",\"720\",\"995\",\"1335\",\"2100\",\"3000\"]"
+      },
+      {
+        "id": "0x69411342758f0c054176b709961a2088495f5048f4fe087c650317b7600004d8",
+        "name": "coremovesystem.move.evasiveaction",
+        "dataType": "INT256_ARRAY",
+        "value": "[\"-10000000000\",\"20000000000\",\"10000000000\",\"-20000000000\",\"0\"]"
+      },
+      {
+        "id": "0x71125f508f08090b87272d7d4119aba89d24cc81b7e5374ef90dd1b4f6931be8",
+        "name": "boss_battle.time_limit",
+        "dataType": "UINT256",
+        "value": "960"
+      },
+      {
+        "id": "0x7205e3aee41191361b7d27124ad05ae481e19b565169d8c36dd3fc9fc23519d8",
+        "name": "globals_trade_cooldown_time",
+        "dataType": "UINT256",
+        "value": "1296000"
+      },
+      {
+        "id": "0x7b071d71f23e8b6285bbf02af7b65d588839a546043dae2beb754805bbfb4794",
+        "name": "total_xp_to_level_up",
+        "dataType": "UINT256_ARRAY",
+        "value": "[\"0\",\"0\",\"25\",\"50\",\"100\",\"200\",\"400\",\"700\",\"1100\",\"1600\",\"2100\",\"2600\",\"3100\",\"3600\",\"4100\",\"5100\",\"6100\",\"7100\",\"8100\",\"9100\",\"10100\",\"11600\",\"13100\",\"14600\",\"16100\",\"18100\",\"20100\",\"22100\",\"24100\",\"26100\",\"28100\"]"
+      },
+      {
+        "id": "0x802b3707e94ddc25503e2d0d22b4324cccc35fde93cc9f9074cb5fef408697c0",
+        "name": "elemental_affinities",
+        "dataType": "STRING_ARRAY",
+        "value": "[Fire,Water,Earth,Air,Lightning]"
+      },
+      {
+        "id": "0x8cb919aa4b233e06f8f8565bca87a5e2f03e0ee9931d1e097a3daa340129ec58",
+        "name": "expertise.levelmultiplier.evasion",
+        "dataType": "INT256",
+        "value": "1250000000000000000"
+      },
+      {
+        "id": "0x8d23e28e812d175ad845aae00b4915192aab307091d3d09fc2e365df549e5ee3",
+        "name": "max_energy_per_level",
+        "dataType": "UINT256_ARRAY",
+        "value": "[\"10000000000000000000\",\"10000000000000000000\",\"11000000000000000000\",\"12000000000000000000\",\"13000000000000000000\",\"14000000000000000000\",\"15000000000000000000\",\"16000000000000000000\",\"17000000000000000000\",\"18000000000000000000\",\"19000000000000000000\",\"20000000000000000000\",\"20000000000000000000\",\"20000000000000000000\",\"20000000000000000000\",\"20000000000000000000\",\"21000000000000000000\",\"22000000000000000000\",\"23000000000000000000\",\"24000000000000000000\",\"25000000000000000000\",\"25000000000000000000\",\"25000000000000000000\",\"25000000000000000000\",\"25000000000000000000\",\"25000000000000000000\",\"25000000000000000000\",\"25000000000000000000\",\"25000000000000000000\",\"25000000000000000000\",\"25000000000000000000\"]"
+      },
+      {
+        "id": "0x9002913e4302b0f4f38752241873852bbe7cacb07f7b18f131acbe03033c89c8",
+        "name": "trade_license_threshold",
+        "dataType": "UINT256",
+        "value": "10"
+      },
+      {
+        "id": "0x916949edc7bb9c98278cac5071ae7555f3157d333402c76b2643ff671a2d5faa",
+        "name": "coremovesystem.move.quickshot",
+        "dataType": "INT256_ARRAY",
+        "value": "[\"-20000000000\",\"10000000000\",\"20000000000\",\"-10000000000\",\"0\"]"
+      },
+      {
+        "id": "0x938d2b076e1fd3ebdb050b61166ccc333d21f8ce5d12864a5a1d0a21a1fa1f1a",
+        "name": "gold_to_level_up",
+        "dataType": "UINT256_ARRAY",
+        "value": "[\"0\",\"0\",\"25000000000000000000\",\"50000000000000000000\",\"100000000000000000000\",\"200000000000000000000\",\"300000000000000000000\",\"400000000000000000000\",\"500000000000000000000\",\"500000000000000000000\",\"500000000000000000000\",\"500000000000000000000\",\"500000000000000000000\",\"500000000000000000000\",\"500000000000000000000\",\"750000000000000000000\",\"750000000000000000000\",\"750000000000000000000\",\"750000000000000000000\",\"750000000000000000000\",\"1500000000000000000000\",\"1500000000000000000000\",\"1500000000000000000000\",\"1500000000000000000000\",\"1500000000000000000000\",\"2000000000000000000000\",\"2000000000000000000000\",\"2000000000000000000000\",\"2000000000000000000000\",\"2000000000000000000000\",\"2500000000000000000000\"]"
+      },
+      {
+        "id": "0x95566ac4a7a0282541747d660a04bf6fa1cf002669699ae284c249b7339b64fa",
+        "name": "expertise.levelmultiplier.accuracy",
+        "dataType": "INT256",
+        "value": "1250000000000000000"
+      },
+      {
+        "id": "0x9b76908b86e873d056ef6f7f30c63216a58618cd32af5403fc8690541748ddbe",
+        "name": "dungeon_battle.time_limit",
+        "dataType": "UINT256",
+        "value": "960"
+      },
+      {
+        "id": "0x9b9b381acc5750e6bd31bb914b6e6f8ad707a31ed495f53e34030a732b34f3ec",
+        "name": "affinity.damagemultiplier.lightning",
+        "dataType": "UINT256_ARRAY",
+        "value": "[\"0\",\"10000\",\"10000\",\"7500\",\"12500\",\"10000\"]"
+      },
+      {
+        "id": "0x9c1f0efca287ff818b62abeed41e8381c8a0fd184bc217b2b6e943a4d3527092",
+        "name": "affinity.damagemultiplier.earth",
+        "dataType": "UINT256_ARRAY",
+        "value": "[\"0\",\"7500\",\"10000\",\"10000\",\"10000\",\"12500\"]"
+      },
+      {
+        "id": "0xa25162432b962e601aa4983815bd6e65b27c6af727b7513d29a80841a94bf5cd",
+        "name": "expertise.multiplierperlevel.evasion",
+        "dataType": "UINT256",
+        "value": "1250000000"
+      },
+      {
+        "id": "0xb590bf31a141074a90164f11f3321fd5f9b9393322df495ab0d17a44da7d8e68",
+        "name": "energy_regen_secs_per_level",
+        "dataType": "UINT256_ARRAY",
+        "value": "[\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\",\"3600\"]"
+      },
+      {
+        "id": "0xb741afa439968a55430dda60f401a91a5f7af0a359eaef33849dacc33775ff13",
+        "name": "affinity.damagemultiplier.fire",
+        "dataType": "UINT256_ARRAY",
+        "value": "[\"0\",\"10000\",\"7500\",\"12500\",\"10000\",\"10000\"]"
+      },
+      {
+        "id": "0xb7e0d10f4e562806a490c2a062d90f70024b00599d178b10da2fa9b5217a8f33",
+        "name": "expertise.levelmultiplier.health",
+        "dataType": "INT256",
+        "value": "1250000000000000000"
+      },
+      {
+        "id": "0xbd7200da0400faa19d7b201ce484b96c13956fbbd25f6d465c36da9040b1e268",
+        "name": "coremovesystem.move.dirtytactics",
+        "dataType": "INT256_ARRAY",
+        "value": "[\"10000000000\",\"-10000000000\",\"-20000000000\",\"20000000000\",\"0\"]"
+      },
+      {
+        "id": "0xbfe99a9a142c0ea3e1d3dee128696ab479ff8737c44ca050547ec137f24140b0",
+        "name": "dungeon_battle.max_move_count",
+        "dataType": "UINT256",
+        "value": "10"
+      },
+      {
+        "id": "0xc72c3913f2ce6f92f0dbd61deaaae07882a3f9353fecb09194c40a96cbbc69a4",
+        "name": "starter_pirate_description",
+        "dataType": "STRING",
+        "value": "Take to the seas with your pirate crew! Explore the world and gather XP, loot, and untold riches in a race to become the world's greatest pirate captain! Play at https://piratenation.game"
+      },
+      {
+        "id": "0xc9bf5ab224b5dd918853ea8f0eb5a48d9254c00faef0879e2fa2ead7925820da",
+        "name": "daily_energy_regen_amount",
+        "dataType": "UINT256",
+        "value": "6250000000000000000"
+      },
+      {
+        "id": "0xca764324d1cf95a5edce06866f70504255cc8230772eeea403e1a7e980bb0bdc",
+        "name": "boss_battle.cooldown_time",
+        "dataType": "UINT256",
+        "value": "120"
+      },
+      {
+        "id": "0xca96a4d244aec5f8d1f924648eb3be2995ed6c6b204c17281283bf856f8f8aa2",
+        "name": "max_level",
+        "dataType": "UINT256",
+        "value": "30"
+      },
+      {
+        "id": "0xce24337e3ddf5777efa8d60b2902a9870ebad3545b15279c21e655a5dc832f14",
+        "name": "tokentype.piratenft.images.enhanced",
+        "dataType": "STRING_ARRAY",
+        "value": "[ipfs://QmRjgEp89ovHdr1M8rkjoC6iEgbNna5kBDjbfubm4zeVDd/,ipfs://QmQYSdcxKKkWcSb2jMiii6nY5x67gsifRxZihMuSH3EEem/,ipfs://QmeBen9iF2RQQP7h5haQjWKKxBUmmVMVzc3wGmveENuEZ5/,ipfs://Qma2rcLonwgUR7dmz6zUVRHeTTfT8FwnNsrC7bmKnQrScU/,ipfs://QmfHwFYQY5rV3pQ2J5UbNyeWstx384UWV16K1PvCoDmV7q/,ipfs://QmdqWrDHCH2VoXpwkGskBjooVj99Sqw5zqTBKvwEAYuF3J/,ipfs://Qmdfts291hNpr8SmqkN6sQgKLzpfabHQxXme7oBekHWDo3/,ipfs://QmUZ4JXK5VhoAMt3UTMyGML9jE4TaTx5EakMHdU4o5V5Cz/,ipfs://QmRjgEp89ovHdr1M8rkjoC6iEgbNna5kBDjbfubm4zeVDd/,ipfs://QmRjgEp89ovHdr1M8rkjoC6iEgbNna5kBDjbfubm4zeVDd/]"
+      },
+      {
+        "id": "0xd0f017d7e4ebc8e337dbe823d382ac51338bbc7f246aa258152efadf646a21c6",
+        "name": "max_energy_earnable",
+        "dataType": "UINT256",
+        "value": "25000000000000000000"
+      },
+      {
+        "id": "0xd13d07625649d7128dac9c189f4de67a5027de968548860794cfa1b5ec7e34e7",
+        "name": "coremovesystem.move.carefulaim",
+        "dataType": "INT256_ARRAY",
+        "value": "[\"-10000000000\",\"-10000000000\",\"-10000000000\",\"30000000000\",\"0\"]"
+      },
+      {
+        "id": "0xd3f40dfe9948fe5a49c2f03c6dd0930afb6f991a9ea1684fc41add491e0d3274",
+        "name": "expertise.multiplierperlevel.accuracy",
+        "dataType": "UINT256",
+        "value": "1250000000"
+      },
+      {
+        "id": "0xd68f7ca99dd74d86091c0ba0098c93e216d1c1b23a943f3c052a8c6ef9186c85",
+        "name": "expertise_values",
+        "dataType": "STRING_ARRAY",
+        "value": "[Damage,Evasion,Speed,Accuracy,Health]"
+      },
+      {
+        "id": "0xda5eb9df7a79cbe7721c35b3e566d11a8b0f4c37a03776781f91934c1cf008dc",
+        "name": "energy_earnable_rate",
+        "dataType": "UINT256",
+        "value": "1000000000000000000"
+      },
+      {
+        "id": "0xe58b8ed273eae500d1e148fe5e7e25e4effe1345c6ff7415db6f0cee28cebcf3",
+        "name": "traits.starsign",
+        "dataType": "STRING_ARRAY",
+        "value": "[Pisces,Aquarius,Capricorn,Sagittarius,Scorpio,Libra,Virgo,Leo,Cancer,Gemini,Taurus,Aries]"
+      },
+      {
+        "id": "0xe96ba80d523569d7d33b128a2e79e22de311285ea09faa44b327bbfc8b38280",
+        "name": "expertise.multiplierperlevel.speed",
+        "dataType": "UINT256",
+        "value": "1250000000"
+      },
+      {
+        "id": "0xefc6903fcceef88ce3a87a12afceeb50cf855990ce8ac65cf3e23d67df2f7ba8",
+        "name": "daily_dungeons.extra_time_to_complete",
+        "dataType": "UINT256",
+        "value": "1800"
+      },
+      {
+        "id": "0xf35a1ca223ff7950d5f13ae2c96f660eb4a74123ad6937ae2398172f94d2ebd6",
+        "name": "affinity.damagemultiplier.water",
+        "dataType": "UINT256_ARRAY",
+        "value": "[\"0\",\"12500\",\"10000\",\"10000\",\"7500\",\"10000\"]"
+      },
+      {
+        "id": "0xf4b0b2b4231c761c6d2572a43d0186b68acdc7c620093d1fa6e235097a1d75b2",
+        "name": "set_captain_timeout_secs",
+        "dataType": "UINT256",
+        "value": "28800"
+      },
+      {
+        "id": "0xf89c60acd76b33945561131a5ad4a801e3c807b7861c614a8c37c2425f61f080",
+        "name": "captain_xp_bonus_percent",
+        "dataType": "UINT256",
+        "value": "1000"
+      },
+      {
+        "id": "0xf94201a7360dac3457cc8fc156d0451c1d6263087a48bacacdfeb5421c03d159",
+        "name": "affinity.damagemultiplier.air",
+        "dataType": "UINT256_ARRAY",
+        "value": "[\"0\",\"10000\",\"12500\",\"10000\",\"10000\",\"7500\"]"
+      },
+      {
+        "id": "0xfabd3e0e773382503e0b4f120ff9868926c04c44303bddf98b2fd2b891ec40cc",
+        "name": "expertise.levelmultiplier.speed",
+        "dataType": "INT256",
+        "value": "1250000000000000000"
+      },
+      {
+        "id": "0xfc9fd8c7e988fe81d144d12f9525d0a905cab2bc6b0ed6a456494c3e095a0395",
+        "name": "max_xp",
+        "dataType": "UINT256",
+        "value": "28100"
+      },
+      {
+        "id": "0xffeae8855e458924f53a063c2c1343cd0557f84285d2cdfe5e6cb9255860b161",
+        "name": "coremovesystem.move.normalstrike",
+        "dataType": "INT256_ARRAY",
+        "value": "[\"0\",\"0\",\"0\",\"0\",\"0\"]"
+      }
+    ]
+  }
+}
