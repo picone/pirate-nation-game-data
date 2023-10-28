@@ -30,6 +30,10 @@ class Loader:
         with open(os.path.join(ASSETS_PATH, 'quests.json'), 'r') as fp:
             return json.load(fp)
 
+    def get_loot_tables(self):
+        res = self._gql_request('get_loot_tables')
+        return res['lootTables']
+
     def _gql_request(self, name: str):
         with open(os.path.join(GRAPHQL_FILES_PATH, f'{name}.graphql'), 'r') as fp:
             q = fp.read()

@@ -1,0 +1,20 @@
+query GetLootTables {
+    lootTables {
+        id
+        lootSets {
+            id
+            loots {
+                id
+                lootId
+                lootType
+                tokenContract {
+                    id
+                }
+                amount
+            }
+        }
+        maxSupply
+        weights
+        mints
+    }
+}

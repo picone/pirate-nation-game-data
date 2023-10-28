@@ -32,6 +32,41 @@ def dump_items(items):
     fp.close()
 
 
+def group_loot_tables(loot_tables):
+    ret = []
+    for loot in loot_tables:
+        new_loot_item = {
+            'id': loot['id'],
+            'groups': [],
+        }
+        for i, item in enumerate(loot['lootSets']):
+            new_loot_item['groups'].append({
+                'loots': item['loots'],
+                'max_supply': int(loot['maxSupply'][i]),
+                'weights': int(int(loot['maxSupply'][i]) / 100),
+                'mints': int(loot['maxSupply'][i]),
+            })
+        ret.append(new_loot_item)
+    return ret
+
+
+def dump_loot_tables(loot_tables):
+    for loot in loot_tables:
+        fields = ['id', 'loots', 'max_supply', 'weights', 'mints']
+        fp = open(os.path.join(OUTPUT_PATH, 'loot_tables.csv'), 'w', newline='')
+        writer = csv.DictWriter(fp, fields)
+        writer.writeheader()
+        for group in loot['groups']:
+            writer.writerow({
+                'id': loot['id'],
+                'loots': group['loots'],
+                'max_supply': group['max_supply'],
+                'weights': group['weights'],
+                'mints': group['mints'],
+            })
+        fp.close()
+
+
 def dump_quests(quests, quest_assets, items):
     fields = ['id', 'name', 'start_description', 'finish_description', 'successXp', 'cooldownSeconds', 'totalCompleted',
               'min_level', 'PGLD', 'generation']
@@ -90,9 +125,12 @@ def main():
     items = loader.get_game_items()
     dump_items(items)
 
+    item_assets = loader.get_game_item_assets()
+    loot_tables = group_loot_tables(loader.get_loot_tables())
+    dump_loot_tables(loot_tables)
+
     quests = loader.get_quests()
     quest_assets = loader.get_quest_assets()
-    item_assets = loader.get_game_item_assets()
     dump_quests(quests, quest_assets, item_assets)
 
 
