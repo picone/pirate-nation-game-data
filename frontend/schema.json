@@ -12,7 +12,7 @@
             {
               "id": "u:f055946d8dbe",
               "type": "crud",
-              "api": "get:items.json",
+              "api": "items.json",
               "loadDataOnce": true,
               "syncLocation": false,
               "footerToolbar": [
@@ -94,6 +94,117 @@
             }
           ],
           "id": "u:3d637705b112"
+        },
+        {
+          "title": "Loot tables",
+          "body": [
+            {
+              "type": "crud",
+              "syncLocation": false,
+              "api": {
+                "method": "get",
+                "url": "loot_tables.json"
+              },
+              "columns": [
+                {
+                  "label": "id",
+                  "type": "text",
+                  "name": "id",
+                  "id": "u:5d73d0773a7d",
+                  "placeholder": "-",
+                  "sortable": true
+                },
+                {
+                  "label": "Items",
+                  "type": "list",
+                  "name": "group",
+                  "id": "u:98457c732ed9",
+                  "listItem": {
+                    "id": "u:f4f3a88b886a",
+                    "title": "${percentage}% Supply: ${mints}/${max_supply}",
+                    "body": [
+                      {
+                        "id": "u:82fd4fd027b6",
+                        "type": "cards",
+                        "card": {
+                          "className": " ae-Editor-listItem",
+                          "id": "u:e3177b801f7d",
+                          "header": {
+                            "title": "${name} x ${amount}"
+                          },
+                          "actionsCount": 8,
+                          "body": [
+                            {
+                              "type": "image",
+                              "id": "u:64fe7a1be373",
+                              "enlargeAble": false,
+                              "style": {
+                                "display": "inline-block"
+                              },
+                              "name": "image",
+                              "width": 46,
+                              "height": 46
+                            }
+                          ]
+                        },
+                        "source": "${items}"
+                      }
+                    ]
+                  },
+                  "searchable": true
+                }
+              ],
+              "bulkActions": [
+              ],
+              "itemActions": [
+              ],
+              "filterSettingSource": [
+                "id",
+                "group"
+              ],
+              "id": "u:746447a13487",
+              "perPageAvailable": [
+                10
+              ],
+              "messages": {
+              },
+              "loadDataOnce": true,
+              "perPage": 20
+            }
+          ],
+          "id": "u:391122d8d12b"
+        },
+        {
+          "title": "Quests",
+          "body": [
+            {
+              "type": "crud",
+              "syncLocation": false,
+              "api": {
+                "method": "get",
+                "url": "quests.json"
+              },
+              "columns": [
+                {
+                  "name": "id",
+                  "label": "ID",
+                  "type": "text",
+                  "id": "u:52b9f667c561"
+                },
+                {
+                  "name": "engine",
+                  "label": "渲染引擎",
+                  "type": "text",
+                  "id": "u:23c56ed59dc1"
+                }
+              ],
+              "bulkActions": [
+              ],
+              "itemActions": [
+              ],
+              "id": "u:745addd9afed"
+            }
+          ]
         }
       ]
     }

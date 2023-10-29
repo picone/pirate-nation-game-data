@@ -1,5 +1,5 @@
 query GetLootTables {
-    lootTables {
+    lootTables(first: 1000) {
         id
         lootSets {
             id
