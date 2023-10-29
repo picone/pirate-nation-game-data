@@ -1,0 +1,112 @@
+{
+  "type": "page",
+  "title": "Pirate Nation Game Data",
+  "body": [
+    {
+      "type": "tabs",
+      "id": "u:4717dc8d0761",
+      "tabs": [
+        {
+          "title": "Items",
+          "body": [
+            {
+              "id": "u:f055946d8dbe",
+              "type": "crud",
+              "api": "get:items.json",
+              "loadDataOnce": true,
+              "syncLocation": false,
+              "footerToolbar": [
+                {
+                  "type": "pagination",
+                  "align": "right"
+                },
+                {
+                  "type": "statistics",
+                  "align": "right"
+                }
+              ],
+              "mode": "table",
+              "placeholder": "暂无数据",
+              "columns": [
+                {
+                  "type": "image",
+                  "name": "image_trait",
+                  "style": {
+                    "display": "inline-block"
+                  },
+                  "id": "u:0cab4d3862b3",
+                  "toggled": true,
+                  "label": "Icon",
+                  "enlargeAble": false
+                },
+                {
+                  "type": "text",
+                  "name": "name",
+                  "id": "u:643395a1f471",
+                  "label": "Name",
+                  "searchable": true
+                },
+                {
+                  "type": "text",
+                  "name": "numOwners",
+                  "id": "u:6f8c84cfe33f",
+                  "toggled": true,
+                  "label": "Owners",
+                  "sortable": true
+                },
+                {
+                  "type": "text",
+                  "name": "currentSupply",
+                  "id": "u:a3e5b52f5111",
+                  "toggled": true,
+                  "label": "Supply",
+                  "sortable": true
+                },
+                {
+                  "type": "text",
+                  "name": "contractAddress",
+                  "id": "u:edeea36f6a5a",
+                  "label": "Contract"
+                },
+                {
+                  "type": "text",
+                  "id": "u:0dff413c7485",
+                  "toggled": true,
+                  "name": "tokenId",
+                  "label": "Token Id",
+                  "sortable": true
+                },
+                {
+                  "type": "text",
+                  "name": "rarity",
+                  "id": "u:4e693e65ff53",
+                  "toggled": true,
+                  "label": "rarity",
+                  "sortable": true
+                }
+              ],
+              "keepItemSelectionOnPageChange": true,
+              "perPage": 20,
+              "headerToolbar": [
+                "export-excel",
+                "export-csv"
+              ]
+            }
+          ],
+          "id": "u:3d637705b112"
+        }
+      ]
+    }
+  ],
+  "id": "u:281312ac7a92",
+  "asideResizor": false,
+  "pullRefresh": {
+    "disabled": true
+  },
+  "regions": [
+    "body",
+    "header"
+  ],
+  "aside": [
+  ]
+}
