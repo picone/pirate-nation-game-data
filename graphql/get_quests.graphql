@@ -1,7 +1,6 @@
 query GetQuests {
-    quests(orderBy: sortIndex, orderDirection: asc, where: { enabled: true }) {
+    quests(orderBy: sortIndex, orderDirection: asc, where: { enabled: true }, first: 1000) {
         id
-        enabled
         successXp
         cooldownSeconds
         totalCompleted

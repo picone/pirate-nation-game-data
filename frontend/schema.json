@@ -186,25 +186,149 @@
               },
               "columns": [
                 {
-                  "name": "id",
                   "label": "ID",
                   "type": "text",
-                  "id": "u:52b9f667c561"
+                  "name": "id",
+                  "id": "u:f631f0ea6d7b",
+                  "sortable": true,
+                  "width": 60
                 },
                 {
-                  "name": "engine",
-                  "label": "渲染引擎",
+                  "label": "Name",
                   "type": "text",
-                  "id": "u:23c56ed59dc1"
+                  "name": "name",
+                  "id": "u:e3b6ad83b77a",
+                  "width": 160
+                },
+                {
+                  "label": "XP",
+                  "type": "text",
+                  "name": "success_xp",
+                  "id": "u:38643b84fa7e",
+                  "sortable": true,
+                  "width": 60
+                },
+                {
+                  "label": "Cooldown(s)",
+                  "type": "text",
+                  "name": "cooldown_seconds",
+                  "id": "u:5c295265325f",
+                  "sortable": true,
+                  "width": 60
+                },
+                {
+                  "label": "Completed",
+                  "type": "text",
+                  "name": "total_completed",
+                  "id": "u:d64ad42619d0",
+                  "sortable": true,
+                  "width": 60
+                },
+                {
+                  "label": "Input",
+                  "type": "list",
+                  "name": "inputs",
+                  "id": "u:35d8c6733348",
+                  "listItem": {
+                    "title": "${name} x : ${amount}",
+                    "id": "u:e693f6cf2d0f",
+                    "body": [
+                      {
+                        "type": "image",
+                        "enlargeAble": false,
+                        "style": {
+                          "display": "inline-block"
+                        },
+                        "name": "image",
+                        "width": 46,
+                        "height": 46,
+                        "hiddenOn": "${IF(image, false, true)}",
+                        "id": "u:3bb22dcd37fe"
+                      }
+                    ]
+                  },
+                  "width": 200
+                },
+                {
+                  "label": "Output",
+                  "type": "list",
+                  "name": "outputs",
+                  "listItem": {
+                    "title": "${name} x : ${amount}",
+                    "body": [
+                      {
+                        "type": "image",
+                        "enlargeAble": false,
+                        "style": {
+                          "display": "inline-block"
+                        },
+                        "name": "image",
+                        "width": 46,
+                        "height": 46,
+                        "id": "u:2180b26a4481",
+                        "visibleOn": "${image}"
+                      },
+                      {
+                        "type": "list",
+                        "listItem": {
+                          "id": "u:cf433b33a7a2",
+                          "title": "${percentage}% Supply: ${mints}/${max_supply}",
+                          "body": [
+                            {
+                              "type": "cards",
+                              "card": {
+                                "className": " ae-Editor-listItem no-padder",
+                                "header": {
+                                  "title": "${name} x ${amount}"
+                                },
+                                "body": [
+                                  {
+                                    "type": "image",
+                                    "enlargeAble": false,
+                                    "style": {
+                                      "display": "inline-block"
+                                    },
+                                    "name": "image",
+                                    "width": 46,
+                                    "height": 46,
+                                    "id": "u:f4641d9a84de",
+                                    "className": "no-padder"
+                                  }
+                                ],
+                                "id": "u:6aa5802c2aa1"
+                              },
+                              "source": "${items}",
+                              "id": "u:16fd343b882d"
+                            }
+                          ]
+                        },
+                        "id": "u:5a894b49ceba",
+                        "source": "${items}",
+                        "visibleOn": "${lootType === 'LOOT_TABLE'}"
+                      }
+                    ],
+                    "id": "u:55ae611723e6"
+                  },
+                  "id": "u:1c5b3c856a10"
                 }
               ],
               "bulkActions": [
               ],
               "itemActions": [
               ],
-              "id": "u:745addd9afed"
+              "id": "u:b8cb6851d6b3",
+              "filterSettingSource": [
+                "id",
+                "name",
+                "success_xp",
+                "cooldown_seconds",
+                "total_completed",
+                "inputs",
+                "outputs"
+              ]
             }
-          ]
+          ],
+          "id": "u:eea7278bb5c1"
         }
       ]
     }
