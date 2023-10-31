@@ -30,6 +30,7 @@ def format_loot_tables(loot_tables, items):
             return {
                 'lootType': 'ERC20',
                 'name': 'PGLD',
+                'image': 'https://piratenation.game/game_assets/currency/gold.png',
                 'amount': int(int(loot_set_item['amount']) / 1e18),
             }
         elif loot_set_item['lootType'] == 'ERC721' and loot_set_item['tokenContract']['id'] == PIRATE_CONTRACT_ADDRESS:
