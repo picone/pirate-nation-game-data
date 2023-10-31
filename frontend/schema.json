@@ -85,12 +85,13 @@
                   "sortable": true
                 }
               ],
-              "keepItemSelectionOnPageChange": true,
               "perPage": 20,
               "headerToolbar": [
                 "export-excel",
                 "export-csv"
-              ]
+              ],
+              "loadDataOnceFetchOnFilter": false,
+              "matchFunc": "const e=options?.query?.name;return e?itemsRaw.filter((t=>t?.name?.toLowerCase()?.indexOf(e.toLowerCase())>=0)):items"
             }
           ],
           "id": "u:3d637705b112"
@@ -154,10 +155,8 @@
                   "searchable": true
                 }
               ],
-              "bulkActions": [
-              ],
-              "itemActions": [
-              ],
+              "bulkActions": [],
+              "itemActions": [],
               "filterSettingSource": [
                 "id",
                 "group"
@@ -166,8 +165,7 @@
               "perPageAvailable": [
                 10
               ],
-              "messages": {
-              },
+              "messages": {},
               "loadDataOnce": true,
               "perPage": 20
             }
@@ -198,7 +196,8 @@
                   "type": "text",
                   "name": "name",
                   "id": "u:e3b6ad83b77a",
-                  "width": 160
+                  "width": 160,
+                  "searchable": true
                 },
                 {
                   "label": "XP",
@@ -304,17 +303,14 @@
                         },
                         "id": "u:5a894b49ceba",
                         "source": "${items}",
-                        "visibleOn": "${lootType === 'LOOT_TABLE'}"
+                        "visibleOn": "${lootType=='LOOT_TABLE'}"
                       }
                     ],
                     "id": "u:55ae611723e6"
                   },
-                  "id": "u:1c5b3c856a10"
+                  "id": "u:1c5b3c856a10",
+                  "searchable": true
                 }
-              ],
-              "bulkActions": [
-              ],
-              "itemActions": [
               ],
               "id": "u:b8cb6851d6b3",
               "filterSettingSource": [
@@ -325,7 +321,11 @@
                 "total_completed",
                 "inputs",
                 "outputs"
-              ]
+              ],
+              "perPage": 20,
+              "loadDataOnce": true,
+              "loadDataOnceFetchOnFilter": false,
+              "matchFunc": "const name = options?.query?.name;const outputName = options?.query?.outputs;if (!name && !outputName) {return items;}let ret = itemsRaw;if (name) {ret = ret.filter(item => {if (!item?.name) {return false;}const itemName = item.name.toLowerCase();return itemName.indexOf(name.toLowerCase()) >= 0;});}if (outputName) {const lowerOutputName = outputName.toLowerCase();ret = ret.filter(item => {if (!item?.outputs) {return false;}for (let i = 0; i < item.outputs.length; i++) {if (item?.outputs[i]?.name && item.outputs[i].name.toLowerCase().indexOf(lowerOutputName) >= 0) {return true;}if (!item?.outputs[i]?.items) {continue;}for (let j = 0; j < item.outputs[i].items.length; j++) {if (!item.outputs[i].items[j]?.items?.length) {continue;}for (let k = 0; k < item.outputs[i].items[j].items.length; k++) {if (!item.outputs[i].items[j].items[k]?.name) {continue;}if (item.outputs[i].items[j].items[k].name.toLowerCase().indexOf(lowerOutputName) >= 0) {return true;}}}}return false;})}return ret;"
             }
           ],
           "id": "u:eea7278bb5c1"
@@ -342,6 +342,5 @@
     "body",
     "header"
   ],
-  "aside": [
-  ]
+  "aside": []
 }
